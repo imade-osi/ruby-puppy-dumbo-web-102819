@@ -23,7 +23,10 @@ class Dog
      
      @@all.each do |dog_instances|
       puts dog_instances.name 
+     end 
    end 
- end 
    
+   def save
+     
+   end 
 end 
