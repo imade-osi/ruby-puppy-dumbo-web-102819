@@ -26,11 +26,4 @@ class Dog
    end 
  end 
    
-    # @@name.each do |names| 
-    #   @@output += names
-    # end 
-    # # @@output += "#{@name}\n"
-    # puts @@output
-    # end
-   
 end 
