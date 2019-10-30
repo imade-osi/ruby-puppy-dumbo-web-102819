@@ -27,4 +27,5 @@ class Dog
     # @@output += "#{@name}\n"
      puts @@output
    end 
+   
 end 
