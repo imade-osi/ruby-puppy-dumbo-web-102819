@@ -3,8 +3,8 @@ require "pry"
 class Dog 
   
   @@all = []
-  @@name = []
-  @@output = ""
+  
+  attr_accessor :name 
   
   def initialize(name)
     @name << name 
@@ -21,11 +21,15 @@ class Dog
   
    def self.print_all 
      
-     @@name.each do |names| 
-       @@output += names
-     end 
-    # @@output += "#{@name}\n"
-     puts @@output
+     @@all.each do |dog_instances|
+      puts dog_instamces.name 
    end 
+   
+    # @@name.each do |names| 
+    #   @@output += names
+    # end 
+    # # @@output += "#{@name}\n"
+    # puts @@output
+    # end
    
 end 
