@@ -24,6 +24,7 @@ class Dog
      @@all.each do |dog_instances|
       puts dog_instamces.name 
    end 
+ end 
    
     # @@name.each do |names| 
     #   @@output += names
